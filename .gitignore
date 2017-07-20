@@ -1,0 +1,10 @@
+# Ignore node modules and debug log
+node_modules
+typings
+npm-debug.log
+.idea
+# Ignore compiled files in CSS and build
+css/*
+build/*
+# Includes any .gitkeep files in otherwise ignored or unused directories
+!*/**/.gitkeep
