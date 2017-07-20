@@ -1,0 +1,16 @@
+<h3>Tags: {{tags}}</h3>
+
+<div *ngFor="let article of articles" class="blog_article">
+    <a [routerLink]="['/article', article.nid[0].value]"><h4>{{ article.title[0].value }}</h4></a>
+    <div [innerHTML]="article.body[0].summary.length ? article.body[0].summary : article.body[0].value"></div>
+    <div>
+        <a [routerLink]="['/main']">Back to The Main Page</a>
+    </div>
+</div>
+
+<ul *ngIf="total_pages.length > 1">
+    <li *ngFor="let page of total_pages; let index = index"><a [routerLink]="['/tags', index]">{{index + 1}}</a></li>
+</ul>
+
+
+

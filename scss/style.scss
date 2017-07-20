@@ -1,0 +1,11 @@
+div.angular_blog_demo{
+  section.blog_platform{
+    .blog_article{
+      background-color: blanchedalmond;
+      padding: 10px 5px;
+      &+.blog_article{
+        margin-top: 5px;
+      }
+    }
+  }
+}

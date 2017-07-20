@@ -1,0 +1,8 @@
+name: Drupal 8 Angular Starter Module
+description: Provides a demonstration for using Angular 4.x to run the Article content type.
+package: Custom
+
+type: module
+core: 8.x
+libraries:
+  - d8_angular_blog_demo/d8_angular_blog_demo

@@ -1,0 +1,26 @@
+//TODO: a number of JavaScript based functionality (e.g. Object.assign(..)) is not properly reference in this file and registers compiling errors.  Will need to investigate how to ensure these errors are properly addressed.
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "pretty": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types"],
+    "types": [
+      "core-js",
+      "systemjs"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}

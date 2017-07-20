@@ -1,0 +1,25 @@
+d8_angular_blog_demo.content:
+  path: '/blog/angular-blog-demo'
+  defaults:
+    _controller: '\Drupal\d8_angular_blog_demo\Controller\AngularDemoController::content'
+    _title: 'Angular Demo'
+  requirements:
+    _permission: 'access content'
+d8_angular_blog_demo.api_main:
+  path: '/api/blog/angular-blog-demo/main/{offset}'
+  defaults:
+    _controller: '\Drupal\d8_angular_blog_demo\Controller\AngularDemoController::apiMain'
+  requirements:
+      _permission: 'access content'
+d8_angular_blog_demo.api_tag:
+  path: '/api/blog/angular-blog-demo/tags/{tid}/{offset}'
+  defaults:
+    _controller: '\Drupal\d8_angular_blog_demo\Controller\AngularDemoController::apiTags'
+  requirements:
+      _permission: 'access content'
+d8_angular_blog_demo.api_article:
+  path: '/api/blog/angular-blog-demo/article/{nid}'
+  defaults:
+    _controller: '\Drupal\d8_angular_blog_demo\Controller\AngularDemoController::apiArticle'
+  requirements:
+      _permission: 'access content'

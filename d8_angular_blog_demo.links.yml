@@ -1,0 +1,6 @@
+d8_angular_blog_demo.admin:
+  title: 'D8 Angular Blog Demo settings'
+  description: 'Adjust the settings for the D8 Angular Blog Demo module'
+  parent: system.admin_config_development
+  route_name: angular_demo.content
+  weight: 100
