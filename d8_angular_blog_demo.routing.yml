@@ -2,7 +2,7 @@ d8_angular_blog_demo.content:
   path: '/blog/angular-blog-demo'
   defaults:
     _controller: '\Drupal\d8_angular_blog_demo\Controller\AngularDemoController::content'
-    _title: 'Angular Demo'
+    _title: 'Angular Blog Demo'
   requirements:
     _permission: 'access content'
 d8_angular_blog_demo.api_main:
